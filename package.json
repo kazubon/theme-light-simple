@@ -2,7 +2,7 @@
     "name": "light-simple",
     "displayName": "Light Simple",
     "description": "Based on the built-in light theme, reduced the colors.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "kazubonx",
     "engines": {
         "vscode": "^1.44.0"
