@@ -1,0 +1,22 @@
+{
+    "name": "light-simple",
+    "displayName": "Light Simple",
+    "description": "Based on the built-in light theme, reduced the colors.",
+    "version": "0.0.3",
+    "publisher": "kazubonx",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light Simple",
+                "uiTheme": "vs",
+                "path": "./themes/light-simple-color-theme.json"
+            }
+        ]
+    }
+}
