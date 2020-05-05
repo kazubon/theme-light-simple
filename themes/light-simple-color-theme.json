@@ -273,17 +273,11 @@
     },
     {
       "name": "String interpolation",
-      "scope": [  // #{}, ${}
+      "scope": [  // #{}, ${}, <% %>
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
-        "punctuation.section.embedded"
-      ],
-      "settings": {
-        "foreground": "#219186"
-      }
-    },
-    {
-      "scope": [  // <% %>
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
         "punctuation.section.embedded"
       ],
       "settings": {
@@ -327,7 +321,8 @@
       }
     },
     {
-      "scope": [  // JSON: key in { "key": "value" }
+      "scope": [  // JavaScript/JSON: key in { "key": "value" }
+        "meta.object-literal.key.js",
         "support.type.property-name.json"
       ],
       "settings": {
